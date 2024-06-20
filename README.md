@@ -4,7 +4,7 @@
 
 **环境信息**。本实验在仅能使用 `torch` 库的基础上进行，`torch` 版本：`2.3.1+cpu`。
 
-**数据信息**。本实验使用经典的 [MNIST](http://yann.lecun.com/exdb/mnist/) 数据集进行朴素贝叶斯 $(\text{Naive Bayes})$ 分类任务。数据集已提前划分为 4 部分，分别为：60000 条训练集的特征 `train-images.idx3-ubyte` 和标签 `train-labels.idx1-ubyte`，10000 条测试集的特征 `t10k-images.idx3-ubyte` 和标签 `t10k-labels.idx1-ubyte`。文件后缀中 `idx{x}` 表示含有 x 个维度信息，`ubyte` 表示存储格式为二进制。
+**数据信息**。本实验使用经典的 [MNIST](http://yann.lecun.com/exdb/mnist/) 数据集进行朴素贝叶斯 $(\text{Naive Bayes})$ 分类任务。数据集已提前划分为 4 部分，分别为：60000 条训练集的特征 `train-images.idx3-ubyte` 和标签 `train-labels.idx1-ubyte`，10000 条测试集的特征 `t10k-images.idx3-ubyte` 和标签 `t10k-labels.idx1-ubyte`。文件后缀中 `idx{x}` 表示含有 $x$ 个 `rgb` 维度信息，`ubyte` 表示存储格式为二进制。
 
 ### 一、数据预处理
 
