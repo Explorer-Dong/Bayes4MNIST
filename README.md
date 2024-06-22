@@ -83,20 +83,21 @@
 懒惰学习的代表，直接查表计算结果即可。
 
 使用「不取对数」的计算公式为：
-$$
+```math
 \begin{aligned}
 P(c\ | \ x) = \frac{P(c)P(x\ |\ c)}{P(x)} = \frac{P(c)}{P(x)} \prod _{i=1}^d p(x_i\ |\ c)
 \end{aligned}
-$$
+```
 
 使用「取对数」优化的计算公式为：
-$$
+
+```math
 \begin{aligned}
 \log{P(c\ | \ x)} &= \log{\frac{P(c)P(x\ |\ c)}{P(x)}}\\
 &= \log{\frac{P(c)}{P(x)} \prod _{i=1}^d p(x_i\ |\ c)}\\
 &= \log{\frac{P(c)}{P(x)}} + \sum_{i=1}^d \log{p(x_i\ |\ c)}
 \end{aligned}
-$$
+```
 
 ### 三、模型测试与评估
 
